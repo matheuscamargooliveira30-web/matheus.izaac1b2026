@@ -1,0 +1,74 @@
+/* Configuração geral */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#061c3b;
+    color:white;
+}
+
+/* Cabeçalho */
+header{
+    background:#002b5c;
+    padding:20px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+header h1{
+    color:#FFD700;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#FFD700;
+}
+
+/* Banner */
+.banner{
+    height:450px;
+    background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),
+    url("https://images.unsplash.com/photo-1547347298-4074fc3086f0?auto=format&fit=crop&w=1400&q=80");
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+.banner h2{
+    font-size:50px;
+}
+
+.banner p{
+    font-size:22px;
+    margin-top:10px;
+}
+
+/* Conteúdo */
+main{
+    width:90%;
+    margin:40px auto;
+}
+
+/* Rodapé */
+footer{
+    background:#00152d;
+    padding:20px;
+    text-align:center;
+    margin-top:50px;
+}
