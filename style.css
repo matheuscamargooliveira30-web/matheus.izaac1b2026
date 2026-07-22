@@ -38,13 +38,19 @@ nav a:hover{
 
 /* Banner */
 .banner{
-   .banner{
-    height:450px;
-    background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),
-    url("https://images.unsplash.com/photo-1540747913346-19e32dc3e97e");
+    height:650px;
+    background:
+    linear-gradient(rgba(0,0,0,.60), rgba(0,0,0,.70)),
+    url("img/banner.jpg");
+
     background-size:cover;
     background-position:center;
-}
+    background-repeat:no-repeat;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
 }
 
 .banner h2{
@@ -74,6 +80,43 @@ header h1{
     font-size:32px;
     letter-spacing:1px;
 
-header h1 span{
+header h1 span
     color:#FFD700;
+}
+
+
+
+/* Banner */
+
+.banner{
+    height:650px;
+    background:
+    linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.75)),
+    url("img/banner.jpg");
+
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+}
+
+.banner-conteudo h2{
+    font-size:70px;
+    color:white;
+    margin-bottom:15px;
+}
+
+.banner-conteudo h3{
+    color:#c8a13d;
+    font-size:35px;
+    margin-bottom:20px;
+}
+
+.banner-conteudo p{
+    font-size:22px;
+    color:white;
 }
