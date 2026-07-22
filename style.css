@@ -38,16 +38,13 @@ nav a:hover{
 
 /* Banner */
 .banner{
+   .banner{
     height:450px;
     background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),
-    url("https://images.unsplash.com/photo-1547347298-4074fc3086f0?auto=format&fit=crop&w=1400&q=80");
+    url("https://images.unsplash.com/photo-1540747913346-19e32dc3e97e");
     background-size:cover;
     background-position:center;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
-    text-align:center;
+}
 }
 
 .banner h2{
@@ -71,4 +68,11 @@ footer{
     padding:20px;
     text-align:center;
     margin-top:50px;
+header h1{
+    color:white;
+    font-size:32px;
+    letter-spacing:1px;
+
+header h1 span{
+    color:#FFD700;
 }
